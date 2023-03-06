@@ -126,7 +126,7 @@ function FormExample() {
                 Masukan Email Anda
         </Form.Control.Feedback>
         <Form.Text className="text-muted">
-        Kami tidak akan pernah membagikan email Anda kepada orang lain
+        Kami tidak akan pernah membagikan email Anda kepada orang lain.
             </Form.Text>
         </Form.Group>
 

@@ -53,7 +53,7 @@ function Hooks() {
                         <Container>
                             <img src="https://eduwork.id/images/logo3.png" alt="lgo" className="lg"></img>
                             <Nav className="me-auto">
-                                <Nav.Link href="#home">Bashofi</Nav.Link>
+                                <Nav.Link href="#home">Rizqi</Nav.Link>
                                 <Nav.Link href="#features"><b>News</b></Nav.Link>
                             </Nav>
                             <Form className="d-flex" onSubmit={hanSubmite}>
