@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  width:100% ;
+  margin: auto;
+  font-family: "Crimson Pro", serif;
+  font-family: "Roboto Slab", serif;
+}
+
+.bg-logo {
+  height: 422px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    -webkit-animation: App-logo-spin infinite 20s linear;
+}
+}
+
+.App-header {
+  background-image: url('/public/image/log.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.button {
+  outline: auto;
+  background-color: transparent;
+  color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: grey;
+  color:black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.about {
+  padding: 20px;
+  font-size: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.main {
+  margin-left: 260px;
+  padding: 0px 10px;
+}
